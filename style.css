@@ -1,4 +1,4 @@
-@import url(reset.css);
+@import url(styles/reset.css);
 
 :root {
     --fundo-claro: #D9D9D9;
@@ -20,14 +20,9 @@
     --Links-: #1B4965;
 }
 
-
 body {
     background-color: var(--fundo);
 }
-
-/* header {
-    border: solid 2px blue;
-} */
 
 .navbar {
     padding: 1.25rem;
@@ -46,6 +41,7 @@ body {
 }
 
 .lista-navbar a {
+    padding: .8rem;
     color: black;
 }
 
@@ -69,44 +65,157 @@ body {
     border: solid 1px var(--laranja-forte);
 }
 
-/* Inicio */
-
-.caixa-texto {
-    border: solid 2px orange;
-    padding: 1.25rem 0rem;
+.auconchego {
+    font-weight: bold;
+    color: white;
+    background-color: var(--laranja-forte);
 }
 
-.texto-inicio {
-    border: solid 2px;
+/* inicio */
+
+.flex-inicio {
+    padding: 1.25rem;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.inicio-imagem {
+    /* border: solid 2px; */
+}
+
+.inicio-imagem img {
+    width: 300px;
+}
+
+.inicio-texto {
     display: flex;
     flex-direction: column;
+    gap: 1.25rem;
+    max-width: 412px;
+}
+
+.btn-inicio {
+    border: solid 1px black;
     text-align: center;
+    padding: 1rem;
+
+    border-radius: 1.25rem;
+
+    color: white;
+    background-color: var(--laranja-forte);
+}
+
+.btn-inicio:hover {
+    color: var(--laranja-forte);
+    background-color: white;
+
+    border: solid 1px var(--laranja-forte);
+}
+
+/* Quem somos */
+
+.flex-quem-somos {
+    padding: 1.25rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.quem-somos-texto {
+    max-width: 427px;
+    display: flex;
+    flex-direction: column;
     gap: 1.25rem;
 }
 
-/* cards */
+.btn-quem-somos {
+    padding: 1rem;
+    width: 60%;
+    border-radius: 1.25rem;
 
-.caixa-card {
-    padding: 20px 0px;
+    color: white;
+    background-color: var(--laranja-forte);
+}
 
-    border: solid 2px;
+.btn-quem-somos:hover {
+    color: var(--laranja-forte);
+    background-color: white;
+    border: solid 1px var(--laranja-forte);
+}
+
+/* missao-visao-valores */
+
+.flex-missao {
+    gap: 4rem;
+
+    display: flex;
+    padding: 1.25rem;
+    justify-content: space-between;
+}
+
+.missao-caixa-card {
+    background-color: var(--card-fundo);
+    border-radius: 1.25rem;
+
+    display: flex;
+    flex-direction: column;
+}
+
+
+.missao-texto {
+    text-align: center;
+    padding-top: none;
+    padding: 0rem 1.25rem 1.25rem 1.25rem;
+}
+
+.missao-logo {
+    padding-top: 1rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.missao-logo img {
+    width: 80px;
+}
+
+.missao-logo h3 {
+    margin: 0.5rem 0rem;
+    text-align: center;
+}
+
+/* cards adote */
+
+.flex-card {
     display: flex;
     justify-content: space-around;
+    padding: 1.25rem;
 
 }
 
 .card {
+
     height: auto;
     width: 360px;
     gap: 1.25rem;
 
-    padding: 20px;
+    padding: 1.25rem;
     background-color: var(--card-fundo);
 
     border-radius: 1.25rem;
     border: solid 2px;
     display: flex;
     flex-direction: column;
+}
+
+.card:hover {
+    transition: 0.3s;
+    scale: 1.02;
 }
 
 /* 
@@ -158,6 +267,7 @@ body {
     border: solid 1px black;
 }
 
+/* formulario adicionar e analisar */
 
 /* footer */
 
@@ -167,35 +277,31 @@ footer {
 }
 
 .caixa-final-flex {
-    padding: 20px;
-    border: solid 2px;
+    padding: 1.25rem;
 
     display: flex;
     justify-content: space-between;
 }
 
 .logo-final {
-    border: solid 2px;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
 .logo-final img {
-    border: solid 2px;
     width: 80px;
 }
 
 .redes-sociais {
-    border: solid 2px;
     display: flex;
     gap: .5rem;
 }
 
 .redes-sociais i {
-    font-size: 2rem;
-    cursor: pointer;
     padding: .5rem 0rem;
+    font-size: 1.5rem;
+    cursor: pointer;
     color: black;
 }
 

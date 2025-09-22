@@ -66,6 +66,7 @@ body {
 /* cards */
 
 .caixa-card {
+    gap: 4rem;
     padding: 20px 0px;
 
     display: flex;

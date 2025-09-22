@@ -53,12 +53,10 @@ body {
 /* Inicio */
 
 .caixa-texto {
-    border: solid 2px orange;
     padding: 1.25rem 0rem;
 }
 
 .texto-inicio {
-    border: solid 2px;
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -70,7 +68,6 @@ body {
 .caixa-card {
     padding: 20px 0px;
 
-    border: solid 2px;
     display: flex;
     justify-content: space-around;
 
@@ -149,26 +146,23 @@ footer {
 
 .caixa-final-flex {
     padding: 20px;
-    border: solid 2px;
 
     display: flex;
     justify-content: space-between;
 }
 
 .logo-final {
-    border: solid 2px;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
 .logo-final img {
-    border: solid 2px;
+    max-width: 100%;
     width: 80px;
 }
 
 .redes-sociais {
-    border: solid 2px;
     display: flex;
     gap: .5rem;
 }

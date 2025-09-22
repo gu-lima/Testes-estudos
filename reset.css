@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: sans-serif;
+    text-decoration: none;
+}
+
+:root {
+    --fundo-claro: #D9D9D9;
+    --fundo-escuro: #434343;
+    --fundo: #FFF0E2;
+    --laranja-forte: #FF8414;
+    --texto-claro: #fff;
+    --texto-escuro: #000;
+    --contra: #A19191;
+    --fundo-tela: #a58362;
+
+
+    --card-fundo:#FFD4A6;
+
+    --botao: #FF8414;
+    --Hover-em-botões: #FFD4A6;
+    --Textos-principais: #2C2C2C;
+    --Textos-secundários:#6B6B6B;
+    --Links-: #1B4965;
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+h3 {
+    font-size: 1.5rem;
+}
+
+h4 {
+    font-size: 1.25rem;
+}
+
+p {
+    font-size: 1.125rem;
+}
+
+button {
+    font-size: 1rem;
+}
+
+label {
+    font-size: 1rem;
+}
+
+.interface {
+    width: 1020px;
+    margin: 0 auto;
+}

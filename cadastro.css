@@ -1,0 +1,152 @@
+@import url(reset.css);
+
+body {
+    background-color: var(--fundo);
+}
+*{
+    text-decoration: none;
+}
+
+header {
+    padding: 20px;
+}
+
+nav {
+    align-items: center;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav img {
+    width: 62px;
+}
+
+
+.entre-aqui:hover {
+    color: var(--laranja-forte);
+}
+
+.imagem-esquerda {
+    width: 400px;
+}
+
+/* Inicio estrutura base */
+
+.texto {
+    /* margin: 0 auto; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.caixa {
+    display: flex;
+    flex-direction: column;
+}
+
+.caixa-texto-botao {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin-top: 20px;
+}
+
+.texto-inicio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    gap: 1.25rem;
+}
+
+/* botoes inicio */
+
+.social-login {
+    gap: 1.25rem;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.botao {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    gap: .5rem;
+
+    background-color: white;
+    padding: .6rem .25rem;
+    
+    border: solid 1px black;
+    border-radius: 1.25rem;
+    width: 100%;
+}
+
+.botao:hover {
+    cursor: pointer;
+    background-color: var(--laranja-forte);
+    color: white;
+    transition: 0.3s;
+}
+
+.espaco-span {
+    font-weight: 550;
+}
+
+/* formulario */
+
+.caixa-formulario {
+    padding: 0px 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.caixa-formulario>div {
+    padding: 0.3rem 0rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.caixa-formulario input {
+    border-radius: 1rem;
+    padding: .7rem;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    border: 1px solid var(--contra);
+}
+
+
+input:focus {
+    outline: none;
+    border-color: var(--laranja-forte);
+    box-shadow: 0 0 4px rgba(255, 132, 20, 0.5);
+}
+
+
+.texto-termos {
+    display: flex;
+    gap: 1rem;
+    margin: .7rem 0rem;
+}
+
+.registrar {
+    /* border: solid 1px black; */
+    border: none;
+    border-radius: 1.25rem;
+    background-color: var(--laranja-forte);
+    color: white;
+    padding: 1rem;
+}
+
+.registrar:hover {
+    cursor: pointer;
+    color: var(--laranja-forte);
+    background-color: white;
+    border: solid 1px var(--laranja-forte);
+}

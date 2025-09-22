@@ -28,6 +28,7 @@ nav img {
 }
 
 .imagem-esquerda {
+    max-width: 100%;
     width: 400px;
 }
 

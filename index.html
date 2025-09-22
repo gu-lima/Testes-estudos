@@ -148,13 +148,55 @@
 
     <section class="doguinhos botao">
         <div class="espaco-botao">
-            <button class="btn-saiba-mais">Saiba mais</button>
+            <button class="btn-saiba-mais">Ver todos</button>
         </div>
 
     </section>
 
-    <section class="formulario">
+    <section class="formulario-contato">
+        <div class="interface">
 
+            <div class="flex-formulario">
+                <img class="imagem-esquerda" src="assets/dourado.webp" alt="Imagem ilustrativa">
+
+                <div class="caixa">
+
+                    <div class="caixa-texto-botao">
+                        <div class="texto-inicio">
+                            <h1>Entre em contato</h1>
+                            <p>Preencha os campos abaixo e retornaremos em breve</p>
+                        </div>
+                    </div>
+
+                    <!-- Formulário de contato -->
+                    <form class="caixa-formulario" action="#" method="post">
+                        <div>
+                            <label for="nome">Nome completo:</label>
+                            <input type="text" id="nome" name="nome" required>
+                        </div>
+
+                        <div>
+                            <label for="email">E-mail:</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+
+                        <div>
+                            <label for="telefone">Telefone:</label>
+                            <input type="tel" id="telefone" name="telefone" placeholder="(11) 99999-9999"
+                                pattern="\(\d{2}\)\s\d{4,5}-\d{4}" required>
+                        </div>
+
+                        <div>
+                            <label for="mensagem">Mensagem:</label>
+                            <textarea id="mensagem" name="mensagem" rows="5" required></textarea>
+                        </div>
+
+                        <button class="registrar" type="submit">Enviar mensagem</button>
+                    </form>
+
+                </div>
+            </div>
+        </div>
     </section>
 
     <footer>
@@ -162,7 +204,7 @@
             <div class="caixa-final-flex">
                 <div class="logo-final">
                     <a href="#">
-                        <img src="assets/dourado.webp" alt="logo">
+                        <img src="assets/Penguinboo_Portrait.webp" alt="logo">
                     </a>
 
                     <div class="redes-sociais">

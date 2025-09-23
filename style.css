@@ -156,12 +156,12 @@ body {
 .missao-caixa-card {
     background-color: var(--card-fundo);
     border-radius: 1.25rem;
-
+    padding: 1rem;
     display: flex;
     flex-direction: column;
 }
 
-.missao-caixa-card:hover{
+.missao-caixa-card:hover {
     transition: 0.3s;
     scale: 1.02;
 }
@@ -193,6 +193,7 @@ body {
 /* cards adote */
 
 .flex-card {
+    flex-wrap: wrap;
     display: flex;
     justify-content: space-around;
     padding: 1.25rem;
@@ -202,14 +203,15 @@ body {
 .card {
 
     height: auto;
-    width: 360px;
+    max-width: 360px;
     gap: 1.25rem;
 
+    margin: 1.25rem;
     padding: 1.25rem;
     background-color: var(--card-fundo);
 
     border-radius: 1.25rem;
-    border: solid 2px;
+    border: solid 1px;
     display: flex;
     flex-direction: column;
 }
@@ -219,11 +221,11 @@ body {
     scale: 1.02;
 }
 
-/* 
-.card-imagem{
-    resolver a resolucao para que qualquer imagem possa ocupar o espaço
-    width: 300px;
-} */
+
+.card-imagem {
+    max-width: 100%;
+    height: auto;
+}
 
 .card-btn {
     margin-top: 1rem;
@@ -270,9 +272,7 @@ body {
     border: solid 1px black;
 }
 
-/* formulario adicionar e analisar */
-
-/* Estrutura */
+/* Contato */
 
 section.formulario-contato {
     background-color: var(--fundo-tela);
@@ -298,14 +298,14 @@ section.formulario-contato {
     flex-direction: column;
 }
 
-.caixa-texto-botao {
+.caixa-texto-contato {
     display: flex;
     flex-direction: column;
     align-items: center;
     margin-top: 1.25rem;
 }
 
-.texto-inicio {
+.texto-contato {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -313,61 +313,9 @@ section.formulario-contato {
     padding: 1rem;
 }
 
-/* Formulário */
-.caixa-formulario {
-
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
-    padding: 0rem 1.25rem;
-}
-
-.caixa-formulario>div {
-    display: flex;
-    flex-direction: column;
-    gap: 0.5rem;
-}
-
-.caixa-formulario input,
-.caixa-formulario textarea {
-    border-radius: 1rem;
-    padding: .7rem;
-    border: 1px solid var(--contra);
-    width: 100%;
-    box-sizing: border-box;
-}
-
-textarea {
-    resize: vertical;
-    min-height: 120px;
-}
-
-
-.caixa-formulario input:focus,
-.caixa-formulario textarea:focus {
-    outline: none;
-    border-color: var(--laranja-forte);
-    box-shadow: 0 0 4px rgba(255, 132, 20, 0.5);
-}
-
-.registrar {
-    border: none;
-    border-radius: 1.25rem;
-    background-color: var(--laranja-forte);
+.email-texto-contato a{
     color: white;
-    padding: 1rem;
-    width: 100%;
-    transition: background-color 0.3s, color 0.3s, border 0.3s;
 }
-
-.registrar:hover {
-    cursor: pointer;
-    color: var(--laranja-forte);
-    background-color: white;
-    border: solid 1px var(--laranja-forte);
-}
-
-
 
 /* footer */
 

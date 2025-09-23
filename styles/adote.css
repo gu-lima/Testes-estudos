@@ -74,7 +74,6 @@ body {
 /* cards */
 
 .caixa-card {
-    border: solid 2px;
     gap: 1rem;
     flex-wrap: wrap;
     display: flex;
@@ -84,7 +83,7 @@ body {
 
 .card {
     height: auto;
-    width: 360px;
+    max-width: 360px;
     gap: 1.25rem;
 
     margin: 1.25rem;
@@ -92,14 +91,14 @@ body {
     background-color: var(--card-fundo);
 
     border-radius: 1.25rem;
-    border: solid 2px;
+    border: solid 1px;
     display: flex;
     flex-direction: column;
 }
 
 
 .card-imagem {
-    width: 20rem;
+    width: 100%;
     height: auto;
 }
 

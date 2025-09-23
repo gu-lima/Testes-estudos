@@ -95,6 +95,10 @@ nav img {
 
 /* LOGIN  */
 
+section.formulario {
+    padding: 4rem;
+}
+
 
 .caixa-formulario {
     padding: 0px 20px;
@@ -126,6 +130,7 @@ input:focus {
     border-color: var(--laranja-forte);
     box-shadow: 0 0 4px rgba(255, 132, 20, 0.5);
 }
+
 .entrar {
     margin: 1rem 0rem;
     /* border: solid 1px black; */
@@ -141,4 +146,53 @@ input:focus {
     color: var(--laranja-forte);
     background-color: white;
     border: solid 1px var(--laranja-forte);
+}
+
+
+/* footer */
+
+footer {
+    background-color: var(--card-fundo);
+
+}
+
+.caixa-final-flex {
+    padding: 1.25rem;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo-final {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo-final img {
+    width: 80px;
+}
+
+.redes-sociais {
+    display: flex;
+    gap: .5rem;
+}
+
+.redes-sociais i {
+    padding: .5rem 0rem;
+    font-size: 1.5rem;
+    cursor: pointer;
+    color: black;
+}
+
+.redes-sociais i:hover {
+    color: var(--laranja-forte);
+}
+
+.email {
+    text-align: end;
+}
+
+address a {
+    color: #934600;
 }

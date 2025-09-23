@@ -9,7 +9,7 @@ body {
     border: solid 2px blue;
 } */
 
-.interface-card{
+.interface-card {
     max-width: 1620px;
     margin: 0 auto;
 }
@@ -76,8 +76,6 @@ body {
 .caixa-card {
     border: solid 2px;
     gap: 1rem;
-    padding: 20px 0px;
-    margin: 1.25rem;
     flex-wrap: wrap;
     display: flex;
     justify-content: space-around;
@@ -99,11 +97,11 @@ body {
     flex-direction: column;
 }
 
-/* 
-.card-imagem{
-    resolver a resolucao para que qualquer imagem possa ocupar o espaço
-    width: 300px;
-} */
+
+.card-imagem {
+    width: 43rem;
+    height: auto;
+}
 
 .card-btn {
     margin-top: 1rem;

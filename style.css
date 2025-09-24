@@ -1,28 +1,6 @@
 @import url(styles/reset.css);
 
-:root {
-    --fundo-claro: #D9D9D9;
-    --fundo-escuro: #434343;
-    --fundo: #FFF0E2;
-    --laranja-forte: #FF8414;
-    --texto-claro: #fff;
-    --texto-escuro: #000;
-    --contra: #A19191;
-    --fundo-tela: #a58362;
 
-
-    --card-fundo: #FFD4A6;
-
-    --botao: #FF8414;
-    --Hover-em-botões: #FFD4A6;
-    --Textos-principais: #2C2C2C;
-    --Textos-secundários: #6B6B6B;
-    --Links-: #1B4965;
-}
-
-body {
-    background-color: var(--fundo);
-}
 
 .navbar {
     padding: 1.25rem;
@@ -362,5 +340,5 @@ footer {
 }
 
 address a {
-    color: #934600;
+    color: var(--texto-escuro);
 }

@@ -1,14 +1,8 @@
 @import url(reset.css);
 
-body {
-    background-color: var(--fundo);
-}
-*{
-    text-decoration: none;
-}
 
 header {
-    padding: 20px;
+    padding: 1.25rem;
 }
 
 nav {
@@ -130,7 +124,7 @@ input[type="password"] {
 input:focus {
     outline: none;
     border-color: var(--laranja-forte);
-    box-shadow: 0 0 4px rgba(255, 132, 20, 0.5);
+    box-shadow: 0 0 4px var(255, 132, 20, 0.5);
 }
 
 
@@ -202,5 +196,5 @@ footer {
 }
 
 address a {
-    color: #934600;
+    color: var(--texto-escuro);
 }

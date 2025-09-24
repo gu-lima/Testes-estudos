@@ -1,8 +1,5 @@
 @import url(reset.css);
 
-body {
-    background-color: var(--fundo);
-}
 *{
     text-decoration: none;
 }

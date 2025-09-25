@@ -298,7 +298,6 @@ section.formulario-contato {
     flex-direction: column;
     align-items: center;
     gap: 1.25rem;
-    padding: 1rem;
 }
 
 .email-texto-contato a {

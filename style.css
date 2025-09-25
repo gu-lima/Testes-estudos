@@ -346,6 +346,9 @@ footer {
 }
 
 .email {
+    flex-direction: column;
+    gap: 0.5rem;
+    display: flex;
     text-align: end;
 }
 
@@ -373,16 +376,32 @@ address a {
         flex-direction: column-reverse;
     }
 
-    .flex-quem-somos{
+    /* quem-somos  */
+
+    .flex-quem-somos {
         margin-top: 2rem;
         flex-direction: column-reverse;
     }
 
-    .btn-quem-somos{
+    .btn-quem-somos {
         width: 100%;
     }
 
-    .flex-formulario{
+    /* contato  */
+
+    .flex-formulario {
         flex-direction: column;
     }
+
+    /* footer  */
+
+    .caixa-final-flex{
+        flex-direction: column;
+        gap: 1rem;
+    }
+    .email{
+        text-align: center;
+    }
+        
+    
 }

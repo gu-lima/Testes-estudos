@@ -52,7 +52,6 @@
 /* inicio */
 
 .flex-inicio {
-    flex-wrap: wrap-reverse;
     padding: 1.25rem;
 
     display: flex;
@@ -352,4 +351,38 @@ footer {
 
 address a {
     color: var(--texto-escuro);
+}
+
+@media screen and (max-width:1020px) {
+
+    .navbar {
+        justify-content: center;
+    }
+
+    .lista-navbar {
+        display: none;
+    }
+
+    .btn-navbar {
+        display: none;
+    }
+
+    .flex-inicio {
+        flex-wrap: wrap-reverse;
+        gap: 2rem;
+        flex-direction: column-reverse;
+    }
+
+    .flex-quem-somos{
+        margin-top: 2rem;
+        flex-direction: column-reverse;
+    }
+
+    .btn-quem-somos{
+        width: 100%;
+    }
+
+    .flex-formulario{
+        flex-direction: column;
+    }
 }

@@ -1,0 +1,20 @@
+@import url(styles/reset.css);
+
+.texto {
+    margin-top: 2rem;
+    background-color: blue;
+}
+
+@media (min-width:1px)and (max-width:759px) {
+    .texto {
+        display: flex;
+        background-color: cyan;
+    }
+}
+
+@media(min-width:760px) and (max-width: 1020px) {
+    .texto {
+        display: flex;
+        background-color: orange;
+    }
+}

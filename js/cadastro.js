@@ -7,7 +7,7 @@ form.addEventListener("submit", async (event) => {
     let email = document.getElementById("email-cadastro").value;
     let password = document.getElementById("senha-cadastro").value;
 
-    await fetch("http://localhost:5000/api/user/create", {
+    let response = await fetch("http://18.191.216.109:5000/api/user/create", {
         method: "POST",
         headers: {
             "Content-Type": "application/json"
@@ -18,4 +18,7 @@ form.addEventListener("submit", async (event) => {
             password
         })
     })
+
+    // if(response.created)
+    //     window.location.href
 });

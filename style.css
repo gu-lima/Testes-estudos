@@ -52,6 +52,7 @@
 /* inicio */
 
 .flex-inicio {
+    flex-wrap: wrap-reverse;
     padding: 1.25rem;
 
     display: flex;
@@ -123,12 +124,22 @@
 /* missao-visao-valores */
 
 .flex-missao {
-    gap: 4rem;
-
+    margin: 2rem;
     display: flex;
-    padding: 1.25rem;
-    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 1.25rem;
+    justify-content: center;
 }
+
+.flex-missao>div {
+    flex: 1 1 300px;
+    max-width: 350px;
+    background: #ffcc99;
+    border-radius: 12px;
+    padding: 20px;
+    text-align: center;
+}
+
 
 .missao-caixa-card {
     background-color: var(--card-fundo);
@@ -262,7 +273,8 @@ section.formulario-contato {
     height: auto;
 }
 
-.flex-formulario {flex-wrap: wrap;
+.flex-formulario {
+    flex-wrap: wrap;
     padding: 1.25rem;
     display: flex;
     align-items: center;
@@ -290,7 +302,7 @@ section.formulario-contato {
     padding: 1rem;
 }
 
-.email-texto-contato a{
+.email-texto-contato a {
     color: white;
 }
 

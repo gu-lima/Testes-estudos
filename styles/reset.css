@@ -51,3 +51,8 @@ label {
     max-width: 1020px;
     margin: 0 auto;
 }
+
+img{
+    width: 100%;
+    height: auto;
+}

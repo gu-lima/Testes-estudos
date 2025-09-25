@@ -60,7 +60,6 @@
 }
 
 .inicio-imagem img {
-    max-width: 100%;
     width: 300px;
 }
 
@@ -263,7 +262,7 @@ section.formulario-contato {
     height: auto;
 }
 
-.flex-formulario {
+.flex-formulario {flex-wrap: wrap;
     padding: 1.25rem;
     display: flex;
     align-items: center;

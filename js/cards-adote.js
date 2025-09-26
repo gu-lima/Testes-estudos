@@ -12,7 +12,9 @@ async function generateCard() {
         });
     }
 
-    session.pets.forEach(element => {
+    let petArray = session.pets || session;
+
+    petArray.forEach(element => {
         let card = document.createElement("div");
 
         let img = document.createElement("img");

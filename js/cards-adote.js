@@ -7,7 +7,8 @@ async function generateCard() {
         await fetch("https://api.webmercadoria.com.br/api/pet")
         .then(res => res.json())
         .then(data => {
-            session = sessionStorage.setItem("pets", JSON.stringify(data, null, 2));
+            sessionStorage.setItem("pets", JSON.stringify(data, null, 2));
+            session = data;
         });
     }
 
@@ -15,7 +16,7 @@ async function generateCard() {
         let card = document.createElement("div");
 
         let img = document.createElement("img");
-        img.src = "../../assets/dog1.png";
+        img.src = "../../assets/dog1.jpg";
         img.alt = `Foto do ${element.name}`;
         card.className = "card";
 

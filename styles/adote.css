@@ -1,14 +1,5 @@
 @import url(reset.css);
 
-
-body {
-    background-color: var(--fundo);
-}
-
-/* header {
-    border: solid 2px blue;
-} */
-
 .interface-card {
     max-width: 1620px;
     margin: 0 auto;
@@ -110,6 +101,7 @@ body {
     border: solid 1px;
     border-radius: 1.25rem;
 
+    text-align: center;
     color: white;
     background-color: var(--laranja-forte);
 }
@@ -192,5 +184,5 @@ footer {
 }
 
 address a {
-    color: #934600;
+    color: var(--texto-escuro);
 }

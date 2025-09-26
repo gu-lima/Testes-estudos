@@ -1,14 +1,9 @@
 @import url(reset.css);
 
-body {
-    background-color: var(--fundo);
-}
-*{
-    text-decoration: none;
-}
 
 header {
-    padding: 20px;
+    background-color: var(--card-fundo);
+    padding: 1rem;
 }
 
 nav {
@@ -35,7 +30,7 @@ nav img {
 /* Inicio estrutura base */
 
 .texto {
-    /* margin: 0 auto; */
+    flex-wrap: wrap;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -133,7 +128,6 @@ input:focus {
     box-shadow: 0 0 4px rgba(255, 132, 20, 0.5);
 }
 
-
 .texto-termos {
     display: flex;
     gap: 1rem;
@@ -202,5 +196,5 @@ footer {
 }
 
 address a {
-    color: #934600;
+    color: var(--texto-escuro);
 }

@@ -7,7 +7,7 @@ async function generateCard() {
         await fetch("https://api.webmercadoria.com.br/api/pet")
         .then(res => res.json())
         .then(data => {
-            sessionStorage.setItem("pets", JSON.stringify(data, null, 2));
+            session = sessionStorage.setItem("pets", JSON.stringify(data, null, 2));
         });
     }
 

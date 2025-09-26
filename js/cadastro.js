@@ -18,6 +18,8 @@ form.addEventListener("submit", async (event) => {
             password
         })
     })
+    .then(res => res.json())
+    .then(data => console.log(data))
 
     if(response.created)
         window.location.href = "login.html"

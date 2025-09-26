@@ -48,6 +48,6 @@ async function generateCard() {
     });
 }
 
-document.addEventListener("DOMContentLoaded", () => {
-    generateCard();
+document.addEventListener("DOMContentLoaded", async () => {
+    await generateCard();
 });

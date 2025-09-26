@@ -1,5 +1,5 @@
 async function generateCard() {
-    let flexCards = document.getElementById("flex-card");
+    let caixaCards = document.getElementById("caixa-card");
 
     let session = JSON.parse(sessionStorage.getItem("pets"));
 
@@ -45,7 +45,7 @@ async function generateCard() {
         card.appendChild(petAge);
         card.appendChild(petSize);
         card.appendChild(petLocale);
-        flexCards.appendChild(card);
+        caixaCards.appendChild(card);
     });
 }
 

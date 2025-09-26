@@ -14,7 +14,7 @@ form.addEventListener("submit", async (event) => {
         return;
     }
 
-    await fetch("http://18.191.216.109:5000/api/user/login", {
+    await fetch("https://api.webmercadoria.com.br/api/user/login", {
         method: "POST",
         headers: {
             "Content-Type": "application/json"

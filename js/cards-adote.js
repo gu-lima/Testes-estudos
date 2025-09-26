@@ -16,7 +16,7 @@ async function generateCard() {
         let card = document.createElement("div");
 
         let img = document.createElement("img");
-        img.src = "../../assets/dog1.jpg";
+        img.src = "../../assets/dog-1.jpg";
         img.alt = `Foto do ${element.name}`;
         card.className = "card";
 

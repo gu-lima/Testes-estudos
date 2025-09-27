@@ -28,7 +28,7 @@ form.addEventListener("submit", async (event) => {
     .then(data => {
         if(data.success){
             sessionStorage.setItem("session", JSON.stringify(data.user, null, 2))
-            window.location.href = "index.html";
+            window.location.href = "../../index.html";
         }
 
         console.log(data);

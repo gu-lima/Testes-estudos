@@ -40,6 +40,9 @@ async function generateCard() {
         let petLocale = document.createElement("p");
         petLocale.textContent = element.locale;
 
+        let petAbout = document.createElement("a");
+        petAbout.href = `../perfil-cachorro/?id=${element.id}`;
+
         card.appendChild(img);
         card.appendChild(petName);
         card.appendChild(petType);

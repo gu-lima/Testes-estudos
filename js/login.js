@@ -27,7 +27,7 @@ form.addEventListener("submit", async (event) => {
     .then(res => res.json())
     .then(data => {
         if(data.success){
-            sessionStorage.setItem("session", JSON.stringify(data.user[0], null, 2))
+            sessionStorage.setItem("session", JSON.stringify(data.user[0]))
             window.location.href = `../../index.html`;
         }
     });

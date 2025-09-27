@@ -4,8 +4,8 @@ async function logged() {
     let session = JSON.parse(sessionStorage.getItem("session"));
     
     if (session){
-        anchor.textContent = `Olá, ${session.name.split(" ")[0]}`;
-        anchor2.textContent = `Olá, ${session.name.split(" ")[0]}`;
+        anchor.textContent = `${session.name.split(" ")[0]}`;
+        anchor2.textContent = `${session.name.split(" ")[0]}`;
         anchor.href = "./pages/perfil";
         anchor2.href = "./pages/perfil"
     }

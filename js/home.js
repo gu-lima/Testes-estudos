@@ -5,6 +5,6 @@ async function logged() {
     console.log(session);
 }
 
-document.addEventListener("DOMContentLoaded", () => {
-
+document.addEventListener("DOMContentLoaded", async () => {
+    await logged();
 });

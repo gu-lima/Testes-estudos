@@ -365,6 +365,7 @@ section.formulario-contato {
     max-width: 100%;
     width: 400px;
     height: auto;
+    flex-wrap: wrap;
 }
 
 .flex-formulario {
@@ -451,6 +452,8 @@ address a {
 }
 
 @media screen and (max-width:1020px) {
+
+
     .btn-abrir-menu {
         display: flex;
     }
@@ -486,6 +489,13 @@ address a {
         flex-direction: column;
     }
 
+    /* formulario */
+
+
+    .texto-contato h1 {
+        font-size: 2rem;
+    }
+
     /* footer  */
 
     .caixa-final-flex {
@@ -497,5 +507,14 @@ address a {
         text-align: center;
     }
 
+    .email p {
+        margin: .5rem;
+    }
 
+}
+
+@media screen and (max-width: 625px) {
+    .imagem-esquerda {
+        width: 250px;
+    }
 }

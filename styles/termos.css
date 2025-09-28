@@ -2,7 +2,6 @@
 
 
 header {
-    background-color: var(--card-fundo);
     padding: 1rem;
 }
 
@@ -24,6 +23,7 @@ nav img {
 
 
 .texto {
+    flex-wrap: wrap;
     display: flex;
     flex-direction: column;
     margin: 2.25rem 0rem;
@@ -77,4 +77,39 @@ footer {
 
 address a {
     color: var(--texto-escuro);
+}
+
+
+@media screen and (max-width:1020px) {
+
+    nav {
+        justify-content: center;
+    }
+
+    .texto {
+        margin: 2.25rem 6rem;
+
+    }
+
+    /* footer  */
+
+    .caixa-final-flex {
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .email {
+        text-align: center;
+    }
+
+    .email p {
+        margin: .5rem;
+    }
+}
+
+@media screen and (max-width:625px) {
+
+    .texto {
+        margin: 2.25rem 2rem;
+    }
 }

@@ -307,7 +307,6 @@
 .card-imagem {
     border-radius: 1.25rem;
     width: 100%;
-    height: auto;
     height: 320px;
     object-fit: cover;
 }

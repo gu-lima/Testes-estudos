@@ -7,9 +7,9 @@ header {
 
 nav {
     align-items: center;
-    padding: 20px;
+    padding: 1.25rem 0 0;
     display: flex;
-    justify-content: space-between;
+    justify-content: start;
 }
 
 nav img {
@@ -39,6 +39,7 @@ footer {
 }
 
 .caixa-final-flex {
+    margin-top: 4rem;
     padding: 1.25rem;
 
     display: flex;
@@ -52,7 +53,7 @@ footer {
 }
 
 .logo-final img {
-    width: 80px;
+    width: 64px;
 }
 
 .redes-sociais {
